@@ -27,5 +27,10 @@
 git diff
 # this command shows the difference between working directory and staging area.(current version and the last commit version)
 
+# i can also compare between two commits by using there commit id's
+
+git diff <commit-id-1> <commit-id-2>
+
+
 
 ```
