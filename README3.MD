@@ -1,0 +1,22 @@
+## Commit Timeline
+
+`commit is nothing but an object or snapshot` which contains the following properties:
+
+- `commit id`
+- `author`
+- `message`
+- `parent commit id`
+- `timestamp`
+- `changes`
+- `branch name`
+- `tag name`
+- `remote name`
+- `remote branch name`
+
+`The first commit ` is known as the `root commit` and it doesn't have any parent commit id.
+
+`every commit not store all the information but only the changes made in that commit.` otherwise the size of the repository will be very large.
+
+`all the commits are stored in .git/objects folder` and the name of the commit is the `commit id`.
+
+`all the commits stores the parent commit id except the root commit`.
