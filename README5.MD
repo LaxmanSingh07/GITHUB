@@ -26,5 +26,8 @@ git add .
 
 git restore --staged <file-name>
 
+# it will remove the file from the staging area and put it back to the working directory
+
+
 
 ```
