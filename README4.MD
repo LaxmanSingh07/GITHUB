@@ -70,7 +70,9 @@ git stash clear
 
 ```bash
 
-git stash apply name
+git stash apply stash@{name}
+
+
 
 # or
 

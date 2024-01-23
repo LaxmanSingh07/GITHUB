@@ -30,9 +30,7 @@ git diff
 # i can also compare between two commits by using there commit id's
 
 git diff <commit-id-1> <commit-id-2>
-
-
-
-
-
 ```
+
+`this is for the demo of stash`
+`Main to time pass krra hun`
