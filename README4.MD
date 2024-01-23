@@ -6,7 +6,7 @@
 
 `we can use git stash in the following way`
 
-````bash
+```bash
 
 # 👉 save the changes which are not committed
 
@@ -34,5 +34,23 @@ git stash pop
 
 git stash pop stash@{index}
 
+
 ```
-````
+
+```
+
+```
+
+`we can also see the list of changes which are saved by using git stash in the following way:`
+
+```bash
+
+# 👉 see the list of changes which are saved by using git stash
+
+git stash list
+
+# 👉 see the list of changes which are saved by using git stash with graph
+
+git stash list --graph
+
+```
