@@ -31,6 +31,4 @@ git diff
 
 git diff <commit-id-1> <commit-id-2>
 
-
-
 ```
