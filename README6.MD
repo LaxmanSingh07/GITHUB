@@ -20,5 +20,15 @@ git branch <branch-name>
 
 git checkout <branch-name>
 
+# 👉 Create new branch and switch to that branch
+
+git checkout -b <branch-name> # b is here for branch
+
+# 👉 Merge branch
+
+# first of all we have to switch to the main branch
+# then
+
+git merge <branch-name>
 
 ```
