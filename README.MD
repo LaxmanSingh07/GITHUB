@@ -152,3 +152,13 @@ git pull origin <branch-name>
 ```
 
 `.git` this folder is hidden folder that contains all the information about your project. (i.e. history of your commits, branches, etc.)
+
+`when you write the commit it should be in present tense` and it should be short and meaningful.
+
+`when we do any type of commit` and then we do log then we see the commit message and commit id. every commit has a unique id. and we can use that id to go back to that commit.
+
+`you can use the token instead of password` to push your code to remote repository.
+
+`Head is used for the reference of the current commit` and it always points to the latest commit.
+
+`(Head -> main,origin/main)` this represents that you are on main branch and you are working on the latest commit of main branch and origin/main represents that you are working on the latest commit of main branch of remote repository.
