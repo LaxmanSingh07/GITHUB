@@ -15,3 +15,16 @@ git restore <file-name>
 git restore --staged <file-name>
 
 ```
+
+```bash
+
+# if i will do something like git add .
+
+git add .
+
+# now i am working with the staging area i can apply git restore command here as well
+
+git restore --staged <file-name>
+
+
+```
