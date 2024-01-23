@@ -6,7 +6,7 @@
 
 `we can use git stash in the following way`
 
-```bash
+````bash
 
 # 👉 save the changes which are not committed
 
@@ -17,4 +17,22 @@ git stash
 git stash save "message"
 
 
+you can use git stash in the following way:
+
+
 ```
+
+### we can bring back the changes which are saved by using git stash in the following way:
+
+```bash
+
+# 👉 bring back the changes which are saved by using git stash
+
+git stash pop
+
+# 👉 bring back the changes which are saved by using git stash with index
+
+git stash pop stash@{index}
+
+```
+````
