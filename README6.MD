@@ -31,4 +31,16 @@ git checkout -b <branch-name> # b is here for branch
 
 git merge <branch-name>
 
+# to delete the branch
+
+git branch -d <branch-name>
+
+# if you want to delete the branch forcefully
+
+git branch -D <branch-name>
+
+# you can also delete the branch from the github (online)
+
+git push origin --delete <branch-name>
+
 ```
