@@ -53,4 +53,15 @@ git stash list
 
 git stash list --graph
 
+# 👉 we can also clear the list of changes which are saved by using git stash in the following way:
+
+git stash clear
+
+
+
+
+```
+
+```
+
 ```
