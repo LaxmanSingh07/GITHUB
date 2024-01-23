@@ -65,3 +65,17 @@ git stash clear
 ```
 
 ```
+
+##### To apply a stash on the bases of name we can use
+
+```bash
+
+git stash apply name
+
+# or
+
+git stash apply stash@{index}
+
+
+
+```
