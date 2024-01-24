@@ -72,8 +72,11 @@ git branch --merged # it will show the merged branches
 
 git branch --no-merged # it will show the unmerged branches
 
-# delete the merged branches local
+# delete the merge which is not merged
 
-git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+
+# if i will try to delete the branch which is not merged then it will give me the warning the reason is that if i will delete the branch then i will lose the data
+
+# -u is for upstream i.e. i can also pull the data from the branch
 
 ```
