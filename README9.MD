@@ -30,3 +30,13 @@ git rebase branch1
 
 git rebase --continue # it will continue the rebase process
 ```
+
+### Difference between merge and rebase
+
+| Merge                                                    | Rebase                                               |
+| -------------------------------------------------------- | ---------------------------------------------------- |
+| It will create a new commit                              | It will not create a new commit                      |
+| History will be preserved                                | History will not be preserved                        |
+| When conflict i can also mention where conflict occur    | When conflict i can not mention where conflict occur |
+| It is good when you are working in a team or open source | It is good when you are working alone                |
+| Bug fixing is easy                                       | Bug fixing is difficult                              |
