@@ -67,10 +67,20 @@ git reset --soft commit_id # you can find the commit id from the git log
 
 # if you just want to remove the last commit then you can write
 
-git reset --soft HEAD~1
+git reset --soft HEAD~1 # changes will also be in the staging area
 
 ```
 
-```
+- Mixed reset
+
+we can write the command in the following way
+
+```bash
+
+git reset --mixed commit_id # you can find the commit id from the git log
+
+# if you just want to remove the last commit then you can write
+
+git reset --mixed HEAD~1 # changes will also be in the working directory
 
 ```
