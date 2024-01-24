@@ -56,4 +56,10 @@ git branch -D <branch-name>
 
 git commit -am "commit message"
 
+# but it only works for the tracked files
+
+# you need to do atleast one add and commit for the untracked files
+
+
+
 ```
