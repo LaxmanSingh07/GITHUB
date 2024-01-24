@@ -18,6 +18,14 @@ git rebase -i main
 
 git rebase -i HEAD~3 # it will squash the last 3 commits
 
+# then i will get a file where i have to write the following command
+
+# pick 1f3a6c3 commit message 1
+# squash 1f3a6c3 commit message 2
+# squash 1f3a6c3 commit message 3
+
+# then save and exit
+
 # then checkout to the main branch
 # i means interactive
 
@@ -28,3 +36,5 @@ git checkout main
 git merge branch1
 
 ```
+
+## GIT REVERT
