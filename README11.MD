@@ -40,3 +40,13 @@ git merge branch1
 ## GIT REVERT
 
 - It is used to undo the changes of a commit.
+
+we can write the command in the following way
+
+```bash
+
+git revert commit_id # you can find the commit id from the git log
+
+
+
+```
