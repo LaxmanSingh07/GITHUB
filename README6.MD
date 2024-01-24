@@ -43,4 +43,9 @@ git branch -D <branch-name>
 
 git push origin --delete <branch-name>
 
+
+# if i want to delete the branch from the github (online) and locally
+
+git branch -D <branch-name>
+
 ```
