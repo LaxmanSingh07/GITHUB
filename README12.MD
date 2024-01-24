@@ -12,6 +12,10 @@ git tag tag_name commit_id # you can find the commit id from the git log
 
 git tag tag_name # you can find the commit id from the git log
 
+# to list all the tags we can write
+
+git tag --list
+
 
 # Example
 
@@ -28,3 +32,5 @@ git push origin tag_name
 
 - It is used to create a release for a tag. TAG is used to store the version of the project. RELEASE is used to store the version of the project with the release note.
 - Tag can has small small commits but release can have large commits.
+
+###
