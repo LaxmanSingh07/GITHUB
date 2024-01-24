@@ -62,4 +62,8 @@ git commit -am "commit message"
 
 
 
+git branch -v # it will show the last commit message of the branch (all branches remote + local)
+
+git branch -r # it will show the remote branches
+
 ```
