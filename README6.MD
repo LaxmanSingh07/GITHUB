@@ -66,4 +66,14 @@ git branch -v # it will show the last commit message of the branch (all branches
 
 git branch -r # it will show the remote branches
 
+
+git branch --merged # it will show the merged branches
+
+
+git branch --no-merged # it will show the unmerged branches
+
+# delete the merged branches local
+
+git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+
 ```
