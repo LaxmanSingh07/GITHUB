@@ -49,3 +49,11 @@ git push origin --delete <branch-name>
 git branch -D <branch-name>
 
 ```
+
+##### You can add and commit a file at once by using the following command
+
+```bash
+
+git commit -am "commit message"
+
+```
