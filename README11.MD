@@ -38,3 +38,5 @@ git merge branch1
 ```
 
 ## GIT REVERT
+
+- It is used to undo the changes of a commit.
