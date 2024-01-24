@@ -83,4 +83,12 @@ git reset --mixed commit_id # you can find the commit id from the git log
 
 git reset --mixed HEAD~1 # changes will also be in the working directory
 
+# the default reset is mixed reset
+
+# we can just write
+
+git reset # it will also do the mixed reset for the last commit
+
+
+
 ```
