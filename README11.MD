@@ -47,6 +47,14 @@ we can write the command in the following way
 
 git revert commit_id # you can find the commit id from the git log
 
-
-
 ```
+
+## GIT RESET
+
+- There are three types of reset
+
+  - Soft reset
+  - Mixed reset
+  - Hard reset
+
+- Soft reset
