@@ -8,6 +8,7 @@ we can write the command in the following way
 
 git tag tag_name commit_id # you can find the commit id from the git log
 
+# if you will not provide any commit_id then it ill consider the current head position
 # if you just want to create a tag for the last commit then you can write
 
 git tag tag_name # you can find the commit id from the git log
@@ -19,18 +20,24 @@ git tag --list
 
 # Example
 
-git tag v1.0.0 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z
+git tag v1.0.0 7567678ddxtyuyu57
 
 # to push the tag to the remote repository we can write
 
 git push origin tag_name
 
+# in tag there will be zip file of the project with the tag name
 
 ```
 
 ## GIT RELEASE
 
-- It is used to create a release for a tag. TAG is used to store the version of the project. RELEASE is used to store the version of the project with the release note.
-- Tag can has small small commits but release can have large commits.
+In GitHub, a release is a way to package and distribute a specific version of your software or project to users. It's essentially a snapshot of your project at a particular point in time, usually associated with a specific tag or commit.
 
-###
+#### Steps involved in creating a release
+
+- Go to the repository on GitHub
+- Click on the releases tab
+- Click on the create a new release button
+- Fill out the form with the tag version, title, and description
+- Click on the publish release button
