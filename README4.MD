@@ -19,7 +19,6 @@ git stash
 git stash save "message"
 
 
-you can use git stash in the following way:
 
 
 ```
@@ -36,10 +35,9 @@ git stash pop
 
 git stash pop stash@{index}
 
+git stash clear # to clear the list of changes which are saved by using git stash
 
 ```
-
-````
 
 `we can also see the list of changes which are saved by using git stash in the following way:`
 
@@ -58,12 +56,6 @@ git stash list --graph
 git stash clear
 
 
-
-
-````
-
-```
-
 ```
 
 ##### To apply a stash on the bases of name we can use
@@ -77,6 +69,7 @@ git stash apply stash@{name}
 # or
 
 git stash apply stash@{index}
+
 
 
 
