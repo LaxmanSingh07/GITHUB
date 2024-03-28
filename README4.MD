@@ -6,6 +6,8 @@
 
 `we can use git stash in the following way`
 
+one i use the git stash command it will save the changes which are not committed. and i will be on the last commit.
+
 ```bash
 
 # 👉 save the changes which are not committed
@@ -37,9 +39,7 @@ git stash pop stash@{index}
 
 ```
 
-```
-
-```
+````
 
 `we can also see the list of changes which are saved by using git stash in the following way:`
 
@@ -60,7 +60,7 @@ git stash clear
 
 
 
-```
+````
 
 ```
 
