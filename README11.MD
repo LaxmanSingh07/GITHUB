@@ -21,8 +21,11 @@ git rebase -i HEAD~3 # it will squash the last 3 commits
 # then i will get a file where i have to write the following command
 
 # pick 1f3a6c3 commit message 1
-# squash 1f3a6c3 commit message 2
-# squash 1f3a6c3 commit message 3
+# squash commit_id commit message 2
+# squash commit_id commit message 3
+
+# pick means keep the commit as it is
+# squash means merge the commit with the previous commit
 
 # then save and exit
 
@@ -47,9 +50,19 @@ we can write the command in the following way
 
 git revert commit_id # you can find the commit id from the git log
 
+# we can also use the HEAD~0 , HEAD~1 ... to revert the last commit
+
+git revert HEAD~1
+
+# it will open the editor where we can write the message and then save and exit
+
+# then the changes will be reverted
+
 ```
 
 ## GIT RESET
+
+It is little confusing because it is used to reset the changes.
 
 - There are three types of reset
 
@@ -58,6 +71,8 @@ git revert commit_id # you can find the commit id from the git log
   - Hard reset
 
 - Soft reset
+
+  By the help of soft reset commit will be gone but the changes will be in the staging area.
 
 we can write the command in the following way
 
@@ -72,6 +87,8 @@ git reset --soft HEAD~1 # changes will also be in the staging area
 ```
 
 - Mixed reset
+
+With the help of mixed reset commit will be gone but the changes will be in the working directory.
 
 we can write the command in the following way
 
@@ -92,3 +109,18 @@ git reset # it will also do the mixed reset for the last commit
 
 
 ```
+
+- Hard reset
+
+With the help of hard reset commit will be gone and the changes will also be gone.
+
+we can write the command in the following way
+
+```bash
+
+git reset --hard commit_id # you can find the commit id from the git log
+
+# HEAD~  it is for the current commit
+```
+
+<!-- -->
