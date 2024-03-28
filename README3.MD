@@ -15,13 +15,15 @@
 
 `The first commit ` is known as the `root commit` and it doesn't have any parent commit id.
 
-`every commit not store all the information but only the changes made in that commit.` otherwise the size of the repository will be very large.
+`every commit not store all the information but only the changes made in that commit.` otherwise the size of the repository will be very large. (changes after done the previous commits) (every commit has a pointer to the parent commit id except the root commit)
 
 `all the commits are stored in .git/objects folder` and the name of the commit is the `commit id`.
 
 `all the commits stores the parent commit id except the root commit`.
 
-###### How to know that changes i did in the file ?
+`head can move to any commit` but it is always pointing to the latest commit.
+
+###### How to know that changes I did in the file ?
 
 ```bash
 git diff

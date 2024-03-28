@@ -5,6 +5,7 @@
     1.1 Untracked Files
 
             ```The files which are not tracked by git are called untracked files.```
+        untracted file is only tracked by git only when we add it to staging area.
 
     1.2 Unmodified Files
 
@@ -45,3 +46,8 @@
 
     git push origin <branch-name>
     ```
+
+origin/main : This specifies the remote repository and the branch name.
+ans also specifies the last changes push up to which commit to the remote repository.
+
+HEAD -> main : this specfices reference to the current branch.

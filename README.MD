@@ -52,13 +52,27 @@ Working Directory -> Staging Area -> Local Repository -> Remote Repository
 
 - Working Directory is the directory where you are working on your project.
 
+```bash
+git add <file-name> # add file to staging area
+```
+
 ###### Staging Area
 
 - Staging Area is the area where you add your files to be committed.
 
+```bash
+git commit -m "commit message" # commit your changes
+# add file to local repository
+
+```
+
 ###### Local Repository
 
 - Local Repository is the area where you commit your files.
+
+```bash
+git push -u origin <branch-name> # push your code to remote repository
+```
 
 ###### Remote Repository
 
@@ -145,6 +159,7 @@ git remote add origin <remote-repository-url>
 # 👉 Push your code to remote repository
 
 git push -u origin <branch-name> # u is for upstream
+# -u specify that we will not only push the code but also set the upstream
 
 # 👉 Pull code from remote repository
 
@@ -162,3 +177,17 @@ git pull origin <branch-name>
 `Head is used for the reference of the current commit` and it always points to the latest commit.
 
 `(Head -> main,origin/main)` this represents that you are on main branch and you are working on the latest commit of main branch and origin/main represents that you are working on the latest commit of main branch of remote repository.
+
+###### Creating a new Repo in GitHub
+
+- Go to GitHub
+- Click on `New` button
+- Enter Repository Name
+- Enter Description
+- Choose Public or Private
+- Choose Initialize this repository with a README
+- Click on `Create Repository` button
+
+- Go to your profile -> scroll down -> developer settings -> personal access token -> generate new token -> copy the token -> paste the token in the terminal when it asks for the password.
+
+this token is used to authenticate your account with the remote repository.
