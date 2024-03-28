@@ -7,7 +7,9 @@ we can use git restore in the following way:
 ```bash
 
 # 👉 restore the changes which are not committed
+# it will bring back the changes which are not committed and head will be on the last commit.
 
+# it is something like undo the changes which are not committed.
 git restore <file-name>
 
 # 👉 restore the changes which are not committed with index
@@ -27,6 +29,9 @@ git add .
 git restore --staged <file-name>
 
 # it will remove the file from the staging area and put it back to the working directory
+
+# it will first compare with the last commit and then it will remove the changes in the file after the last commit.
+
 
 
 
